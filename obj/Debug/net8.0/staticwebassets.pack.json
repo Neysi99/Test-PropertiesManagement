@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Test\\Test-PropertiesManagement\\wwwroot\\js\\Owner.js",
+      "PackagePath": "staticwebassets\\js\\Owner.js"
+    },
+    {
+      "Id": "C:\\Test\\Test-PropertiesManagement\\wwwroot\\js\\Property.js",
+      "PackagePath": "staticwebassets\\js\\Property.js"
+    },
+    {
+      "Id": "C:\\Test\\Test-PropertiesManagement\\wwwroot\\js\\PropertyType.js",
+      "PackagePath": "staticwebassets\\js\\PropertyType.js"
+    },
+    {
       "Id": "C:\\Test\\Test-PropertiesManagement\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

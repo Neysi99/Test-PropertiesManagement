@@ -1,7 +1,6 @@
 ﻿namespace PropertiesManagement.Models
 {
-    public class PropertyModel
+    public class Property
     {
-      
     }
 }
