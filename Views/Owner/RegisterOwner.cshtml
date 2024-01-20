@@ -1,0 +1,43 @@
+﻿@model OwnerModel
+@{
+    ViewData["Title"] = "OwnerRegister";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h1>Registration for owners</h1>
+    </div>
+    <div class="card-body">
+        <form id="ownerForm" asp-action="Save" asp-controller="Owner" method="post">
+            <div class="mb-3">
+                <label for="Name" class="form-label">Name</label>
+                <input asp-for="Name" class="form-control" id="Name" aria-describedby="emailHelp">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Telephone" class="form-label">Telephone</label>
+                <input asp-for="Telephone" class="form-control" id="Telephone">
+                <span asp-validation-for="Telephone" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Email" class="form-label">Email</label>
+                <input asp-for="Email" class="form-control" id="Email" aria-describedby="emailHelp">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="IdentificationNumber" class="form-label">Identification Number</label>
+                <input asp-for="IdentificationNumber" class="form-control" id="IdentificationNumber">
+                <span asp-validation-for="IdentificationNumber" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="Address" class="form-label">Address</label>
+                <input asp-for="Address" class="form-control" id="Address">
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <button type="submit" >Guardar</button>
+        </form>
+    </div>
+</div>
+
+<!-- Reference of JavaScript s -->
+<script src="~/js/Owner.js"></script>

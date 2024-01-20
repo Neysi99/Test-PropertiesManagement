@@ -1,4 +1,6 @@
 ﻿namespace PropertiesManagement.Models
+
+
 {
     public class PropertyTypeModel
     {
